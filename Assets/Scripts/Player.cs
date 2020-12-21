@@ -36,8 +36,8 @@ public class Player : MonoBehaviour
     {
         xOffset = xSpeed * playerController.movement.x * Time.deltaTime;
         yOffset = ySpeed * playerController.movement.y * Time.deltaTime;
-        yOffset = Mathf.Clamp(yOffset + transform.localPosition.y, -2, 2);
-        xOffset = Mathf.Clamp(xOffset + transform.localPosition.x, -3, 3);
+        yOffset = Mathf.Clamp(yOffset + transform.localPosition.y, -3, 3);
+        xOffset = Mathf.Clamp(xOffset + transform.localPosition.x, -5, 5);
         transform.localPosition = new Vector3(xOffset , yOffset , transform.localPosition.z);
     }
 
@@ -47,7 +47,7 @@ public class Player : MonoBehaviour
         yRot = playerController.movement.x * -1 ;
         yR = Mathf.Clamp( yR + yRot + transform.localRotation.y , -15, 15);
         
-        Quaternion y = Quaternion.Euler(transform.localPosition.y * -15 + playerController.movement.y * 7 , transform.localPosition.x * 10 , 0);
+        Quaternion y = Quaternion.Euler(transform.localPosition.y * -10 + playerController.movement.y * -7 , transform.localPosition.x * 12 , yRot*20);
         transform.localRotation = y;
 
 

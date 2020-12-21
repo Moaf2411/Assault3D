@@ -14,10 +14,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="105">
               <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding>
                 <marker date="1607534534166" expanded="false" signature="6:113" ph="..." />
@@ -32,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WaypointCircuit.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3540">
+            <state relative-caret-position="3510">
               <caret line="254" column="56" selection-start-line="254" selection-start-column="56" selection-end-line="254" selection-end-column="56" />
               <folding>
                 <marker date="1607615846189" expanded="false" signature="6:94" ph="..." />
@@ -110,18 +110,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
+            <state relative-caret-position="630">
+              <caret line="49" column="139" selection-start-line="49" selection-start-column="139" selection-end-line="49" selection-end-column="139" />
               <folding>
-                <marker date="1607963602671" expanded="false" signature="6:78" ph="..." />
-                <marker date="1607963602671" expanded="true" signature="115:1352" ph="{...}" />
-                <marker date="1607963602671" expanded="true" signature="282:355" ph="{...}" />
-                <marker date="1607963602671" expanded="true" signature="437:518" ph="{...}" />
-                <marker date="1607963602671" expanded="true" signature="563:965" ph="{...}" />
-                <marker date="1607963602671" expanded="true" signature="1019:1350" ph="{...}" />
+                <marker date="1608481608207" expanded="false" signature="6:78" ph="..." />
+                <marker date="1608481608207" expanded="true" signature="115:1360" ph="{...}" />
+                <marker date="1608481608207" expanded="true" signature="282:355" ph="{...}" />
+                <marker date="1608481608207" expanded="true" signature="437:518" ph="{...}" />
+                <marker date="1608481608207" expanded="true" signature="563:965" ph="{...}" />
+                <marker date="1608481608207" expanded="true" signature="1019:1358" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -130,7 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WaypointProgressTracker.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
+            <state relative-caret-position="2130">
               <caret line="152" selection-start-line="152" selection-end-line="152" />
               <folding>
                 <marker date="1607615604122" expanded="false" signature="6:32" ph="..." />
@@ -198,8 +198,8 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
@@ -250,12 +250,14 @@
       <updated>1607526946278</updated>
       <workItem from="1607526956577" duration="2509000" />
       <workItem from="1607612939970" duration="6557000" />
-      <workItem from="1607957972199" duration="4473000" />
+      <workItem from="1607957972199" duration="4763000" />
+      <workItem from="1608477876765" duration="3414000" />
+      <workItem from="1608579710511" duration="231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13539000" />
+    <option name="totallyTimeSpent" value="17243000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -267,10 +269,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25860906" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2680621" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -331,22 +333,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/NewBehaviourScript.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/RoutePoint.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <marker date="1607534534166" expanded="false" signature="6:113" ph="..." />
-            <marker date="1607534534166" expanded="true" signature="155:474" ph="{...}" />
-            <marker date="1607534534166" expanded="true" signature="213:398" ph="{...}" />
-            <marker date="1607534534166" expanded="true" signature="425:472" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WaypointCircuit.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3540">
+        <state relative-caret-position="3510">
           <caret line="254" column="56" selection-start-line="254" selection-start-column="56" selection-end-line="254" selection-end-column="56" />
           <folding>
             <marker date="1607615846189" expanded="false" signature="6:94" ph="..." />
@@ -423,7 +412,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WaypointProgressTracker.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
+        <state relative-caret-position="2130">
           <caret line="152" selection-start-line="152" selection-end-line="152" />
           <folding>
             <marker date="1607615604122" expanded="false" signature="6:32" ph="..." />
@@ -452,15 +441,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
+        <state relative-caret-position="630">
+          <caret line="49" column="139" selection-start-line="49" selection-start-column="139" selection-end-line="49" selection-end-column="139" />
           <folding>
-            <marker date="1607963602671" expanded="false" signature="6:78" ph="..." />
-            <marker date="1607963602671" expanded="true" signature="115:1352" ph="{...}" />
-            <marker date="1607963602671" expanded="true" signature="282:355" ph="{...}" />
-            <marker date="1607963602671" expanded="true" signature="437:518" ph="{...}" />
-            <marker date="1607963602671" expanded="true" signature="563:965" ph="{...}" />
-            <marker date="1607963602671" expanded="true" signature="1019:1350" ph="{...}" />
+            <marker date="1608481608207" expanded="false" signature="6:78" ph="..." />
+            <marker date="1608481608207" expanded="true" signature="115:1360" ph="{...}" />
+            <marker date="1608481608207" expanded="true" signature="282:355" ph="{...}" />
+            <marker date="1608481608207" expanded="true" signature="437:518" ph="{...}" />
+            <marker date="1608481608207" expanded="true" signature="563:965" ph="{...}" />
+            <marker date="1608481608207" expanded="true" signature="1019:1358" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <marker date="1607534534166" expanded="false" signature="6:113" ph="..." />
+            <marker date="1607534534166" expanded="true" signature="155:474" ph="{...}" />
+            <marker date="1607534534166" expanded="true" signature="213:398" ph="{...}" />
+            <marker date="1607534534166" expanded="true" signature="425:472" ph="{...}" />
           </folding>
         </state>
       </provider>
