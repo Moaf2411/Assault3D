@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
     private PlayerController playerController;
     [SerializeField] 
     private float xSpeed = 10f;
+
+    [SerializeField] private GameObject[] guns;
 
     private float ySpeed = 8f;
     
@@ -24,12 +27,29 @@ public class Player : MonoBehaviour
     {
         
         Move();
-        Rotate();     
-                    
+        Rotate();
+        Shoot();
+
     }
 
-    
-    
+
+    private void Shoot()
+    {
+        if (playerController.isShooting)
+        {
+            foreach (var gun in guns)
+            {
+                gun.SetActive(true);
+            }
+        }
+        else
+        {
+            foreach (var gun in guns)
+            {
+                gun.SetActive(false);
+            }
+        }
+    }
     
     
     private void Move()
@@ -52,5 +72,13 @@ public class Player : MonoBehaviour
 
 
 
+    }
+
+
+    private void KillTheControls()
+    {
+        
+        GetComponent<PlayerInput>().currentActionMap = null;
+        
     }
 }
